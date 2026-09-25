@@ -3,6 +3,7 @@ return {
   event = "VeryLazy",
   opts = {
     ephemeral = true, -- Automatically clean up when you close Neovim
+    clone_args = "--depth=1 --jobs=2 --single-branch --recurse-submodules --shallow-submodules --progress",
   },
   keys = {
     {

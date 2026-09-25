@@ -14,11 +14,6 @@ return {
         widget_guides = {
           enabled = true,
         },
-        lsp = {
-          color = {
-            enabled = true,
-          },
-        },
       })
       -- Custom IDE Keybindings
       vim.keymap.set("n", "<leader>fr", ":FlutterReload<CR>", { desc = "Flutter Hot Reload" })
